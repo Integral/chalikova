@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 category: articles
 published: false
 title: Галина Чаликова рассказывает о себе
