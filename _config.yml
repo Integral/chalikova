@@ -1,4 +1,5 @@
 baseurl: ''
+auto: true
 permalink: pretty
 markdown: rdiscount
 prose:
