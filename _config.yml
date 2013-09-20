@@ -27,7 +27,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "articles"
+          value: "article"
       - name: "author"
         field:
           element: "text"
