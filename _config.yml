@@ -1,7 +1,4 @@
-baseurl: '/'
-pygments: true
-auto: true
-server: true
+baseurl: ''
 permalink: pretty
 markdown: rdiscount
 prose:
@@ -23,7 +20,7 @@ prose:
       - name: "category"
         field:
           element: "hidden"
-          value: "articles"
+          value: "article"
       - name: "layout"
         field:
           element: "hidden"
@@ -33,8 +30,13 @@ prose:
           element: "text"
           label: "Author"
           value: ""
-      - name: "author_twitter"
+      - name: "source"
         field:
           element: "text"
           label: "Source link"
+          value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
           value: ""
