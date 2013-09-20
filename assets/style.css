@@ -12,7 +12,7 @@ p.right {
 }
 p.black {
 	color: rgba(3, 3, 3, 0.6);
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.7);
 }
 p.white {
 	color: rgba(255, 255, 255, 0.6);
@@ -21,6 +21,10 @@ p.white {
 p.big {
 	font-size: 17px;
 	line-height: 20px;
+}
+p.description {
+	top: 450px;
+	position: relative;
 }
 
 .banner ul li.long {
