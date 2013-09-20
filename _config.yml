@@ -1,6 +1,7 @@
 baseurl: '/'
 pygments: true
 auto: true
+server: true
 permalink: pretty
 markdown: rdiscount
 prose:
