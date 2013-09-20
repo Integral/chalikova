@@ -1,4 +1,5 @@
 baseurl: '/'
+pygments: true
 auto: true
 permalink: pretty
 markdown: rdiscount
