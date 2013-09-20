@@ -1,0 +1,37 @@
+baseurl: ''
+permalink: pretty
+markdown: rdiscount
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://galya.podari-zhizn.ru/'
+  media: 'media'
+  metadata:
+    _posts/articles:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "lead"
+        field:
+          element: "textarea"
+          label: "Article abstract"
+          value: ""
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "articles"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "articles"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
+      - name: "author_twitter"
+        field:
+          element: "text"
+          label: "Source link"
+          value: ""
