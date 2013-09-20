@@ -2,6 +2,31 @@ body {
 	font-family: 'PT Sans', sans-serif;
 }
 
+p.right {
+	width: 300px;
+	float: right;
+	font-size: 15px;
+	line-height: 15px;
+	text-align: left;
+	padding: 45px 15px; 
+}
+p.black {
+	color: rgba(3, 3, 3, 0.6);
+	background: rgba(255, 255, 255, 0.5);
+}
+p.white {
+	color: rgba(255, 255, 255, 0.6);
+	background: rgba(0, 0, 0, 0.5);
+}
+p.big {
+	font-size: 17px;
+	line-height: 20px;
+}
+
+.banner ul li.long {
+	padding: 60px 0 110px;
+}
+
 .banner {
 	position: relative;
 	min-width:100%;
@@ -27,7 +52,7 @@ body {
 		display: block;
 		float: left;
 		width: 33%;
-		padding: 160px 0 110px;
+		padding: 100px 0 110px;
 		
 		min-height: 350px;
 		
