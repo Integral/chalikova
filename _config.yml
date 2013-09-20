@@ -1,4 +1,4 @@
-baseurl: ''
+baseurl: '/'
 auto: true
 permalink: pretty
 markdown: rdiscount
